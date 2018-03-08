@@ -1,0 +1,9 @@
+//Para obtener los registros sin un Oportunidad Madre
+SELECT Id, AccountID, EG009_rb_ProcesoDeCredito__c, StageName, RecordType.DeveloperName
+FROM Opportunity
+WHERE RecordType.DeveloperName = 'EG009_tre_OportunidadFinanciamiento'
+AND EG009_rb_ProcesoDeCredito__c = null
+AND StageName != 'Descartada / Rechazada'
+AND  StageName != 'Cerrada Ganada'
+AND AccountID != null
+AND Account.EG009_rb_GrupoEconomicoPertenece__c != null

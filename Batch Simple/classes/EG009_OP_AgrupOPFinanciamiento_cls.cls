@@ -9,6 +9,7 @@
 *_______________________________________________________________________________________
 *Versión   			 Fecha           Autor                               Descripción
 *@version 1.0        27/FEB/2018     Lic. Luis Ruben Quinto Muñoz	     Creación.
+*@version 2.0        27/FEB/2018     Ing. Pedro Alan Hernandez Sierra	 Lógica y Cambios (Restructura)
 *----------------------------------------------------------------------------------------- 
 **/
 
@@ -102,8 +103,6 @@ global class EG009_OP_AgrupOPFinanciamiento_cls implements Database.Batchable<sO
                     }
                 }
 
-                Update scope;
-
                 if(!OppMadresCrear.isEmpty()){
 
                     //Se Crean las Oportunidades Madres
@@ -121,8 +120,8 @@ global class EG009_OP_AgrupOPFinanciamiento_cls implements Database.Batchable<sO
                     }
 
                 }
-
                 
+                Update scope;                
 
             }
 
