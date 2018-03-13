@@ -1,18 +1,3 @@
-/** 
-*----------------------------------Desarrollado por INDRA---------------------------------
-*@author        Lic. Luis Ruben Quinto Muñoz
-*@proyect       Pipeline Financiamiento PI8 BEyG
-*@description   Batch que agrupa oportunidades huerfanas a los procesos de crédito.
-*				Debe unir las oportunidades cuando se actualiza el grupo economico del cliente
-*				las oportunidades del cliente solo si son del proceso de crédito
-*
-*_______________________________________________________________________________________
-*Versión   			 Fecha           Autor                               Descripción
-*@version 1.0        27/FEB/2018     Lic. Luis Ruben Quinto Muñoz	     Creación.
-*@version 2.0        27/FEB/2018     Ing. Pedro Alan Hernandez Sierra	 Lógica y Cambios (Restructura)
-*----------------------------------------------------------------------------------------- 
-**/
-
 global class EG009_OP_AgrupOPFinanciamiento_cls implements Database.Batchable<sObject> {
 	
 

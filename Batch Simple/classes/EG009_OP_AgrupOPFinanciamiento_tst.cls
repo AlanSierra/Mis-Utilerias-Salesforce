@@ -1,12 +1,3 @@
-/*-----------------------------------------------------------------------------------------
-*----------------------------------Desarrollado por INDRA----------------------------------
-*Autor:			Ing. Pedro Alan Hernandez Sierra
-*Proyecto:		MAX 3.0 - BBVA Bancomer
-*Descripción:	Clase "TEST" para Batch: EG009_OP_AgrupOPFinanciamiento_Sch
-*_______________________________________________________________________________________
-*Versión	Fecha			Autor								Descripción
-*1.0        06/MAR/2018     Ing. Pedro Alan Hernandez Sierra    Creación.
------------------------------------------------------------------------------------------*/
 @isTest
 public class EG009_OP_AgrupOPFinanciamiento_tst {
 
